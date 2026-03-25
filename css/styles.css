@@ -179,7 +179,7 @@ ul {
 }
 
 .hero-content {
-    background: var(--gradient-dark), url('../images/hero-bg.png') center/cover no-repeat;
+    background: var(--gradient-dark), url('../images/IMG_6408.png') center/cover no-repeat;
     padding: 150px 6vw 80px;
     display: flex;
     flex-direction: column;
@@ -485,7 +485,7 @@ ul {
 }
 
 .about-image {
-    background: url('../images/about-bg.jpg') center/cover no-repeat;
+    background: url('../images/IMG_6403.png') center/cover no-repeat;
     min-height: 600px;
     position: relative;
 }
@@ -871,7 +871,7 @@ ul {
    PAGE HERO (for inner pages)
 ============================================ */
 .page-hero {
-    background: var(--gradient-dark), url('../images/hero-bg.png') center/cover no-repeat;
+    background: var(--gradient-dark), url('../images/IMG_6408.png') center/cover no-repeat;
     padding: 180px 0 100px;
     text-align: center;
     color: var(--white);
@@ -885,6 +885,140 @@ ul {
 .page-hero p {
     font-size: 1.2rem;
     opacity: 0.9;
+}
+
+/* ============================================
+   SERVICES PHOTO SECTION
+============================================ */
+.services-photo-section {
+    padding: 100px 0;
+    background: var(--white);
+}
+
+.services-photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.service-photo-card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.service-photo-card:hover {
+    transform: translateY(-8px);
+}
+
+.service-photo-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+.service-photo-content {
+    padding: 30px;
+    background: var(--white);
+}
+
+.service-photo-content h3 {
+    font-size: 1.6rem;
+    color: var(--secondary-dark);
+    margin-bottom: 15px;
+}
+
+.service-photo-content p {
+    color: var(--text-medium);
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.service-photo-content .btn {
+    background: var(--primary-accent);
+    color: var(--primary-dark);
+    padding: 12px 24px;
+    font-size: 0.8rem;
+}
+
+/* ============================================
+   VIDEO SECTION
+============================================ */
+.video-section {
+    padding: 100px 0;
+    background: var(--secondary-dark);
+}
+
+.video-section-inner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.video-section-text {
+    color: var(--white);
+}
+
+.video-section-text p {
+    color: rgba(255,255,255,0.75);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.video-thumbnail {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.video-thumbnail img {
+    width: 100%;
+    display: block;
+}
+
+.video-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background: rgba(0,0,0,0.65);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 2rem;
+    transition: background 0.3s ease;
+}
+
+.video-thumbnail:hover .video-play-btn {
+    background: rgba(0,0,0,0.9);
+}
+
+/* ============================================
+   BLOG POST THUMBNAILS
+============================================ */
+.blog-card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* TEAM SECTION - expanded grid for full team */
+.team-grid-full {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 30px;
+    margin-top: 60px;
 }
 
 /* ============================================
@@ -981,6 +1115,14 @@ ul {
 
     .testimonials-grid,
     .blog-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .services-photo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .video-section-inner {
         grid-template-columns: 1fr;
     }
 
