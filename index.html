@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Salmon HVAC - Utah's Leading HVAC Specialists for Repairs, Installations, and Tune-Ups. Serving the Wasatch Front for over 40 years.">
+    <meta name="keywords" content="HVAC, heating, cooling, air conditioning, furnace repair, Utah, Centerville, Salt Lake City">
+    <title>Utah HVAC Service & Installs | Salmon HVAC in Centerville</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/salmonhvac-logo.webp" alt="Salmon HVAC Logo">
+                <span class="logo-text">Salmon <span>HVAC</span></span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="index.html" class="active">Home</a>
+                <a href="pages/about.html">About</a>
+                <a href="pages/services.html">Services</a>
+                <a href="pages/locations.html">Service Areas</a>
+                <a href="pages/blog.html">Resources</a>
+                <a href="pages/contact.html">Contact</a>
+            </nav>
+
+            <a href="tel:801-510-2565" class="nav-phone">
+                <i class="fas fa-phone"></i>
+                (801) 510-2565
+            </a>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Utah's Leading HVAC Specialists for Repairs, Installations, and Tune-Ups</h1>
+            <p>Serving residents of the Wasatch Front and beyond for over 40 years.</p>
+            <a href="pages/contact.html" class="btn btn-primary">
+                Get Quote
+                <i class="fas fa-dollar-sign"></i>
+            </a>
+        </div>
+
+        <div class="hero-services">
+            <h2>Our Services</h2>
+
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="images/icon-residential.png" alt="Residential">
+                </div>
+                <div class="service-content">
+                    <h3>Residential Service</h3>
+                    <p>Keep your home comfortable all year despite Utah's extreme climate—10°F winters to 95°F+ summers. We handle AC tune-ups, furnace repairs, heat pumps, ductless mini-splits, and full system replacements for all major brands. We also service water heaters and specialize in tankless installs for Utah's growing homes.</p>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="images/icon-commercial.png" alt="Commercial">
+                </div>
+                <div class="service-content">
+                    <h3>Commercial Services</h3>
+                    <p>Custom HVAC solutions for Utah offices, retail, and industrial spaces — including VRF (Variable Refrigerant Flow) system installation, maintenance, and repair. We service multi-zone commercial systems built for our high-altitude climate and extreme temperature swings.</p>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <div class="service-icon">
+                    <img src="images/icon-diagnostic.png" alt="Diagnostic">
+                </div>
+                <div class="service-content">
+                    <h3>$85 Diagnostic</h3>
+                    <p>Not sure what's wrong? Our $85 diagnostic service identifies issues fast—from furnaces struggling in Utah's extreme cold to ACs freezing in our dry climate. Get back to comfort quickly with expert troubleshooting for all heating, cooling, and water heater concerns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section" id="contact-form">
+        <div class="contact-form-container">
+            <h2>Get Service Options Now</h2>
+            <p class="subtitle">Fill out the form below and we'll get back to you within 24 hours.</p>
+
+            <form class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="firstName">First Name *</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name *</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Service Needed</label>
+                    <select id="service" name="service">
+                        <option value="">Select a service...</option>
+                        <option value="ac-repair">AC Repair</option>
+                        <option value="ac-installation">AC Installation</option>
+                        <option value="furnace-repair">Furnace Repair</option>
+                        <option value="furnace-installation">Furnace Installation</option>
+                        <option value="heat-pump">Heat Pump Service</option>
+                        <option value="water-heater">Water Heater Service</option>
+                        <option value="diagnostic">$85 Diagnostic</option>
+                        <option value="tune-up">System Tune-Up</option>
+                        <option value="commercial">Commercial HVAC</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Tell us about your HVAC needs..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-dark form-submit">Submit Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client Testimonials</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Salmon HVAC came out the same day I called. They diagnosed the problem with my furnace quickly and had it fixed within an hour. Professional, friendly, and reasonably priced. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">JM</div>
+                        <div>
+                            <div class="testimonial-name">Jennifer M.</div>
+                            <div class="testimonial-location">Centerville, UT</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"We've used Salmon HVAC for over 10 years. They installed our new AC system and have maintained it ever since. Always on time, always professional. The best HVAC company in Davis County!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">RT</div>
+                        <div>
+                            <div class="testimonial-name">Robert T.</div>
+                            <div class="testimonial-location">Bountiful, UT</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"My AC went out during a heat wave. Salmon HVAC came out on a Sunday and got us cool again. They were honest about what we needed and didn't try to upsell us. Great family business!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">SK</div>
+                        <div>
+                            <div class="testimonial-name">Sarah K.</div>
+                            <div class="testimonial-location">Farmington, UT</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="about-image"></div>
+        <div class="about-content">
+            <h2>About Salmon HVAC</h2>
+            <p>For over 40 years, Salmon HVAC has been the trusted name in heating, cooling, and indoor air quality for Utah families and businesses. As a family-owned company based in Centerville, we understand the unique challenges of Utah's climate—from freezing winters to scorching summers.</p>
+            <p>Our team of certified technicians is dedicated to providing honest, reliable service at fair prices. We stand behind every job with our satisfaction guarantee.</p>
+
+            <div class="about-features">
+                <div class="about-feature">
+                    <div class="about-feature-icon"><i class="fas fa-check"></i></div>
+                    <span>40+ Years Experience</span>
+                </div>
+                <div class="about-feature">
+                    <div class="about-feature-icon"><i class="fas fa-check"></i></div>
+                    <span>Family Owned & Operated</span>
+                </div>
+                <div class="about-feature">
+                    <div class="about-feature-icon"><i class="fas fa-check"></i></div>
+                    <span>Licensed & Insured</span>
+                </div>
+                <div class="about-feature">
+                    <div class="about-feature-icon"><i class="fas fa-check"></i></div>
+                    <span>24/7 Emergency Service</span>
+                </div>
+            </div>
+
+            <a href="pages/about.html" class="btn btn-dark" style="margin-top: 30px;">
+                Learn More About Us
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Grid Section -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our HVAC Services</h2>
+                <div class="section-divider" style="background: #2a2a2a;"></div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <i class="fas fa-snowflake"></i>
+                    </div>
+                    <h3>Air Conditioning</h3>
+                    <p>AC repair, installation, and maintenance to keep you cool during Utah's hot summers. We service all major brands.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3>Heating & Furnaces</h3>
+                    <p>Complete furnace services including repair, replacement, and annual tune-ups for reliable winter warmth.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Heat Pumps</h3>
+                    <p>Energy-efficient heat pump installation and service for year-round comfort and lower utility bills.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3>Mini-Split Systems</h3>
+                    <p>Ductless mini-split installation for homes without ductwork or for zone-specific climate control.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Water Heaters</h3>
+                    <p>Traditional and tankless water heater installation, repair, and maintenance for endless hot water.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-card-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Commercial HVAC</h3>
+                    <p>Custom commercial solutions including VRF systems, rooftop units, and multi-zone climate control.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Get Comfortable?</h2>
+            <p>Schedule your service today and experience the Salmon HVAC difference.</p>
+            <div class="cta-buttons">
+                <a href="tel:801-510-2565" class="btn btn-primary">
+                    <i class="fas fa-phone"></i>
+                    Call (801) 510-2565
+                </a>
+                <a href="pages/contact.html" class="btn" style="background: transparent; border: 2px solid #fff; color: #fff;">
+                    Request Quote Online
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-text">Salmon <span>HVAC</span></span>
+                    </a>
+                    <p>Utah's trusted HVAC professionals for over 40 years. Family-owned, community-focused, and committed to your comfort.</p>
+                </div>
+
+                <div class="footer-links-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/about.html">About Us</a></li>
+                        <li><a href="pages/services.html">Services</a></li>
+                        <li><a href="pages/locations.html">Service Areas</a></li>
+                        <li><a href="pages/blog.html">Resources</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="pages/services.html">AC Repair</a></li>
+                        <li><a href="pages/services.html">Furnace Service</a></li>
+                        <li><a href="pages/services.html">Heat Pumps</a></li>
+                        <li><a href="pages/services.html">Water Heaters</a></li>
+                        <li><a href="pages/services.html">Commercial HVAC</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(801) 510-2565</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@salmonhvac.com</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Centerville, Utah</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Mon-Sat: 7am - 8pm</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Salmon HVAC. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/salmonplumbingandhvac/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" aria-label="Google">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#" aria-label="Yelp">
+                        <i class="fab fa-yelp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

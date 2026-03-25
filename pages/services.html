@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Salmon HVAC services include AC repair, furnace installation, heat pumps, water heaters, and commercial HVAC for Utah homes and businesses.">
+    <title>HVAC Services | Salmon HVAC - Heating, Cooling & More</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <style>
+        .service-detail {
+            padding: 80px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .service-detail:nth-child(even) {
+            background: var(--light-bg);
+        }
+
+        .service-detail .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .service-detail:nth-child(even) .container {
+            direction: rtl;
+        }
+
+        .service-detail:nth-child(even) .service-detail-content {
+            direction: ltr;
+        }
+
+        .service-detail-image {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+        }
+
+        .service-detail-image img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .service-detail-content h2 {
+            font-size: 2.2rem;
+            color: var(--secondary-dark);
+            margin-bottom: 20px;
+        }
+
+        .service-detail-content p {
+            color: var(--text-medium);
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+
+        .service-list {
+            margin: 25px 0;
+        }
+
+        .service-list li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 0;
+            color: var(--text-dark);
+        }
+
+        .service-list li i {
+            color: var(--primary-accent);
+            background: var(--secondary-dark);
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+        }
+
+        .pricing-highlight {
+            background: linear-gradient(135deg, var(--primary-accent) 0%, #7ed8e6 100%);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .pricing-highlight h4 {
+            color: var(--primary-dark);
+            margin-bottom: 5px;
+        }
+
+        .pricing-highlight p {
+            color: var(--secondary-dark);
+            margin: 0;
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .service-detail .container {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .service-detail:nth-child(even) .container {
+                direction: ltr;
+            }
+
+            .service-detail-image img {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <img src="../images/salmonhvac-logo.webp" alt="Salmon HVAC Logo">
+                <span class="logo-text">Salmon <span>HVAC</span></span>
+            </a>
+
+            <nav class="nav-menu">
+                <a href="../index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html" class="active">Services</a>
+                <a href="locations.html">Service Areas</a>
+                <a href="blog.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <a href="tel:801-510-2565" class="nav-phone">
+                <i class="fas fa-phone"></i>
+                (801) 510-2565
+            </a>
+
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <h1>Our HVAC Services</h1>
+        <p>Complete heating, cooling, and air quality solutions for Utah homes and businesses.</p>
+    </section>
+
+    <!-- Service: Air Conditioning -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail-image">
+                <img src="../images/hvac-tech.webp" alt="Air Conditioning Service">
+            </div>
+            <div class="service-detail-content">
+                <h2><i class="fas fa-snowflake" style="color: var(--primary-accent); margin-right: 15px;"></i>Air Conditioning</h2>
+                <p>Utah summers can be brutal, with temperatures regularly exceeding 95°F. Our air conditioning services keep you cool and comfortable all season long.</p>
+                <p>We service, repair, and install all major AC brands including Lennox, Carrier, Trane, Rheem, and more.</p>
+
+                <ul class="service-list">
+                    <li><i class="fas fa-check"></i> AC repair and troubleshooting</li>
+                    <li><i class="fas fa-check"></i> New AC installation</li>
+                    <li><i class="fas fa-check"></i> System replacement and upgrades</li>
+                    <li><i class="fas fa-check"></i> Seasonal tune-ups and maintenance</li>
+                    <li><i class="fas fa-check"></i> Refrigerant recharge</li>
+                    <li><i class="fas fa-check"></i> Ductwork inspection and repair</li>
+                </ul>
+
+                <div class="pricing-highlight">
+                    <h4>AC Tune-Up Special</h4>
+                    <p>Schedule your seasonal maintenance and save on energy bills!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service: Heating & Furnaces -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail-image" style="background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%); display: flex; align-items: center; justify-content: center; height: 350px;">
+                <i class="fas fa-fire" style="font-size: 8rem; color: white;"></i>
+            </div>
+            <div class="service-detail-content">
+                <h2><i class="fas fa-fire" style="color: #ff6b6b; margin-right: 15px;"></i>Heating & Furnaces</h2>
+                <p>When Utah winters bring sub-zero temperatures, you need a heating system you can rely on. Our furnace services ensure your family stays warm and safe.</p>
+                <p>From emergency repairs to complete system replacements, we handle all your heating needs with expertise and care.</p>
+
+                <ul class="service-list">
+                    <li><i class="fas fa-check"></i> Furnace repair and diagnostics</li>
+                    <li><i class="fas fa-check"></i> New furnace installation</li>
+                    <li><i class="fas fa-check"></i> High-efficiency upgrades</li>
+                    <li><i class="fas fa-check"></i> Annual maintenance and tune-ups</li>
+                    <li><i class="fas fa-check"></i> Heat exchanger inspection</li>
+                    <li><i class="fas fa-check"></i> Thermostat installation</li>
+                </ul>
+
+                <div class="pricing-highlight">
+                    <h4>$85 Diagnostic</h4>
+                    <p>Don't know what's wrong? Our diagnostic fee is credited toward repairs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service: Heat Pumps -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail-image" style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); display: flex; align-items: center; justify-content: center; height: 350px;">
+                <i class="fas fa-sync-alt" style="font-size: 8rem; color: white;"></i>
+            </div>
+            <div class="service-detail-content">
+                <h2><i class="fas fa-sync-alt" style="color: #11998e; margin-right: 15px;"></i>Heat Pumps</h2>
+                <p>Heat pumps offer efficient heating and cooling in one system. They're an excellent choice for Utah's climate, providing comfort year-round while reducing energy costs.</p>
+                <p>We specialize in both air-source and ground-source heat pump systems for maximum efficiency.</p>
+
+                <ul class="service-list">
+                    <li><i class="fas fa-check"></i> Heat pump installation</li>
+                    <li><i class="fas fa-check"></i> Repair and maintenance</li>
+                    <li><i class="fas fa-check"></i> System optimization</li>
+                    <li><i class="fas fa-check"></i> Dual-fuel systems</li>
+                    <li><i class="fas fa-check"></i> Cold-climate heat pumps</li>
+                    <li><i class="fas fa-check"></i> Energy efficiency upgrades</li>
+                </ul>
+
+                <div class="pricing-highlight">
+                    <h4>Energy Savings</h4>
+                    <p>Heat pumps can reduce heating costs by up to 50% compared to traditional furnaces.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service: Mini-Splits -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; height: 350px;">
+                <i class="fas fa-wind" style="font-size: 8rem; color: white;"></i>
+            </div>
+            <div class="service-detail-content">
+                <h2><i class="fas fa-wind" style="color: #667eea; margin-right: 15px;"></i>Ductless Mini-Splits</h2>
+                <p>Perfect for homes without ductwork, room additions, or zone-specific climate control. Mini-splits offer flexibility and efficiency in a compact package.</p>
+                <p>We install single-zone and multi-zone systems to meet your specific needs.</p>
+
+                <ul class="service-list">
+                    <li><i class="fas fa-check"></i> Ductless system installation</li>
+                    <li><i class="fas fa-check"></i> Multi-zone configurations</li>
+                    <li><i class="fas fa-check"></i> Repair and maintenance</li>
+                    <li><i class="fas fa-check"></i> Garage and workshop heating</li>
+                    <li><i class="fas fa-check"></i> Basement and addition cooling</li>
+                    <li><i class="fas fa-check"></i> Server room climate control</li>
+                </ul>
+
+                <div class="pricing-highlight">
+                    <h4>No Ductwork Required</h4>
+                    <p>Quick installation with minimal disruption to your home.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service: Water Heaters -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail-image" style="background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%); display: flex; align-items: center; justify-content: center; height: 350px;">
+                <i class="fas fa-tint" style="font-size: 8rem; color: white;"></i>
+            </div>
+            <div class="service-detail-content">
+                <h2><i class="fas fa-tint" style="color: #0072ff; margin-right: 15px;"></i>Water Heaters</h2>
+                <p>From traditional tank water heaters to modern tankless systems, we provide complete water heater services for Utah homes.</p>
+                <p>Tankless water heaters are especially popular for Utah's growing families, providing endless hot water on demand.</p>
+
+                <ul class="service-list">
+                    <li><i class="fas fa-check"></i> Water heater repair</li>
+                    <li><i class="fas fa-check"></i> Tank water heater installation</li>
+                    <li><i class="fas fa-check"></i> Tankless water heater installation</li>
+                    <li><i class="fas fa-check"></i> Anode rod replacement</li>
+                    <li><i class="fas fa-check"></i> Sediment flushing</li>
+                    <li><i class="fas fa-check"></i> Temperature and pressure valve service</li>
+                </ul>
+
+                <div class="pricing-highlight">
+                    <h4>Tankless Specialists</h4>
+                    <p>Save space and energy with endless hot water on demand.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service: Commercial HVAC -->
+    <section class="service-detail">
+        <div class="container">
+            <div class="service-detail-image" style="background: linear-gradient(135deg, #434343 0%, #000000 100%); display: flex; align-items: center; justify-content: center; height: 350px;">
+                <i class="fas fa-building" style="font-size: 8rem; color: white;"></i>
+            </div>
+            <div class="service-detail-content">
+                <h2><i class="fas fa-building" style="color: #434343; margin-right: 15px;"></i>Commercial HVAC</h2>
+                <p>Custom HVAC solutions for Utah businesses—from small offices to large industrial facilities. We understand the unique demands of commercial climate control.</p>
+                <p>Our commercial team specializes in VRF systems, rooftop units, and multi-zone configurations.</p>
+
+                <ul class="service-list">
+                    <li><i class="fas fa-check"></i> VRF system installation and service</li>
+                    <li><i class="fas fa-check"></i> Rooftop unit maintenance</li>
+                    <li><i class="fas fa-check"></i> Multi-zone climate control</li>
+                    <li><i class="fas fa-check"></i> Preventive maintenance contracts</li>
+                    <li><i class="fas fa-check"></i> Emergency commercial repair</li>
+                    <li><i class="fas fa-check"></i> Energy efficiency audits</li>
+                </ul>
+
+                <div class="pricing-highlight">
+                    <h4>Commercial Maintenance Plans</h4>
+                    <p>Protect your investment with scheduled preventive maintenance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Need HVAC Service?</h2>
+            <p>Contact us today for a free estimate on any of our services.</p>
+            <div class="cta-buttons">
+                <a href="tel:801-510-2565" class="btn btn-primary">
+                    <i class="fas fa-phone"></i>
+                    Call (801) 510-2565
+                </a>
+                <a href="contact.html" class="btn" style="background: transparent; border: 2px solid #fff; color: #fff;">
+                    Get a Free Quote
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="logo">
+                        <span class="logo-text">Salmon <span>HVAC</span></span>
+                    </a>
+                    <p>Utah's trusted HVAC professionals for over 40 years. Family-owned, community-focused, and committed to your comfort.</p>
+                </div>
+
+                <div class="footer-links-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="locations.html">Service Areas</a></li>
+                        <li><a href="blog.html">Resources</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">AC Repair</a></li>
+                        <li><a href="services.html">Furnace Service</a></li>
+                        <li><a href="services.html">Heat Pumps</a></li>
+                        <li><a href="services.html">Water Heaters</a></li>
+                        <li><a href="services.html">Commercial HVAC</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(801) 510-2565</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@salmonhvac.com</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Centerville, Utah</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Salmon HVAC. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/salmonplumbingandhvac/" target="_blank" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" aria-label="Google">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="#" aria-label="Yelp">
+                        <i class="fab fa-yelp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
