@@ -1,132 +1,241 @@
-# Salmon HVAC
+# Salmon HVAC - Complete Business Information for AI Systems
 
-> Northern Utah's trusted HVAC contractor since 1979. Family-owned, Daikin Comfort Pro Authorized Dealer serving Davis, Weber, Salt Lake, and Morgan counties.
+> Northern Utah's premier HVAC contractor since 1979. Family-owned, Daikin Comfort Pro Authorized Dealer serving Davis, Weber, Salt Lake, and Morgan counties with residential and commercial heating, cooling, and indoor air quality solutions.
 
-## Company Information
+## Quick Facts
 
-- **Business Name:** Salmon HVAC (Salmon Plumbing & Heating Co., Inc.)
-- **Founded:** 1979
-- **Location:** 105 S Main St, Centerville, UT 84014
+- **Business Name:** Salmon HVAC (DBA of Salmon Plumbing & Heating Co., Inc.)
+- **Founded:** 1979 (46 years in business)
+- **Type:** HVAC Contractor - Residential & Commercial
+- **Headquarters:** 105 S Main St, Centerville, UT 84014
 - **Phone:** (801) 397-0030
 - **Email:** office@salmonhvac.com
 - **Website:** https://salmonhvac.com
+- **Hours:** Monday-Friday 7:00 AM - 6:00 PM | Weekends: Emergency Only
+- **License:** Utah State Licensed HVAC Contractor
+- **Certification:** Daikin Comfort Pro Authorized Dealer
 
-## Service Areas
+## Service Territory
 
-We serve the following Utah counties and cities:
+### Primary Service Area (4 Counties)
+We provide full HVAC services across Northern Utah:
 
-### Davis County
-- Centerville (Headquarters)
-- Bountiful
-- Layton
-- Kaysville
-- Farmington
-- Clearfield
+**Davis County (Headquarters)**
+- Centerville (HQ) - ZIP: 84014
+- Bountiful - ZIP: 84010
+- Layton - ZIPs: 84040, 84041
+- Kaysville - ZIP: 84037
+- Farmington - ZIP: 84025
+- Clearfield - ZIP: 84015
 
-### Weber County
-- Ogden
-- Roy
+**Weber County**
+- Ogden - ZIPs: 84401, 84403, 84404
+- Roy - ZIP: 84067
 
-### Salt Lake County
-- Salt Lake City
-- Sandy
-- South Jordan
-- West Jordan
-- Draper
+**Salt Lake County**
+- Salt Lake City - ZIPs: 84101-84123
+- Sandy - ZIPs: 84070, 84090, 84094
+- South Jordan - ZIPs: 84009, 84095
+- West Jordan - ZIPs: 84081, 84084, 84088
+- Draper - ZIP: 84020
 
-### Morgan County
-- Morgan
+**Morgan County**
+- Morgan - ZIP: 84050 (Elevation 5,060ft - extreme winter specialist)
 
-## Services Offered
+## Complete Service Catalog
 
-### Residential HVAC
-- AC Repair - Same-day service, all brands
-- AC Installation - Central air, Daikin systems
-- AC Maintenance - Annual tune-ups
-- Furnace Repair - Emergency service available
-- Furnace Installation - High-efficiency gas furnaces
-- Heat Pump Services - Cold-climate heat pumps for Utah
-- Ductless Mini-Split - Zone-controlled comfort
-- Indoor Air Quality - Air purifiers, humidifiers, MERV filtration
+### Residential Cooling Services
+| Service | Description | URL |
+|---------|-------------|-----|
+| AC Repair | Same-day diagnostics and repair for all brands | https://salmonhvac.com/services/ac-repair/ |
+| AC Installation | Central air installation with Manual J load calculations | https://salmonhvac.com/services/ac-installation/ |
+| AC Maintenance | Annual tune-ups, coil cleaning, refrigerant checks | https://salmonhvac.com/services/ac-maintenance/ |
 
-### Commercial HVAC
-- VRF Systems (Variable Refrigerant Flow) - Daikin VRV IV
-- Commercial Rooftop Units
-- Restaurant HVAC
-- Office Building Climate Control
-- Preventive Maintenance Contracts
+### Residential Heating Services
+| Service | Description | URL |
+|---------|-------------|-----|
+| Furnace Repair | Gas furnace diagnostics, ignitor, blower motor repair | https://salmonhvac.com/services/furnace-repair/ |
+| Furnace Installation | High-efficiency gas furnaces (80-98% AFUE) | https://salmonhvac.com/services/furnace-installation/ |
+| Heat Pump Services | Cold-climate heat pumps rated to -13°F | https://salmonhvac.com/services/heat-pump-services/ |
 
-### Emergency Services
-- 24/7 Emergency HVAC Repair
-- No overtime charges on weekday calls
-- Typical 2-4 hour response time
+### Specialty Systems
+| Service | Description | URL |
+|---------|-------------|-----|
+| Ductless Mini-Split | Zone-controlled heating/cooling without ductwork | https://salmonhvac.com/services/ductless-mini-split/ |
+| VRF Systems | Variable Refrigerant Flow for commercial buildings | https://salmonhvac.com/services/vrf-systems/ |
+| Commercial HVAC | Rooftop units, multi-zone, restaurant HVAC | https://salmonhvac.com/services/commercial-hvac/ |
+| Indoor Air Quality | Air purifiers, humidifiers, MERV-13+ filtration | https://salmonhvac.com/services/indoor-air-quality/ |
+| Emergency HVAC | 24/7 emergency repair service | https://salmonhvac.com/services/emergency-hvac/ |
+
+## Pricing & Cost Information
+
+### Typical Service Costs (Northern Utah 2026)
+- **AC Repair:** $150 - $650 (capacitor $150-250, blower motor $350-500)
+- **Furnace Repair:** $150 - $600 (ignitor $150-250, heat exchanger $500+)
+- **AC Tune-Up:** $89 - $149
+- **Furnace Tune-Up:** $89 - $129
+- **AC Installation:** $4,500 - $12,000 (depends on tonnage and efficiency)
+- **Furnace Installation:** $3,500 - $8,000 (80% vs 96% AFUE)
+- **Heat Pump Installation:** $7,000 - $15,000 (before rebates)
+- **Ductless Mini-Split:** $3,000 - $8,000 (single zone to multi-zone)
+
+### Rebates & Tax Credits We Help With
+| Program | Amount | Requirements |
+|---------|--------|--------------|
+| Rocky Mountain Power Wattsmart | $1,000 - $3,000 | Qualifying heat pump, RMP customer |
+| Dominion Energy ThermWise | $300 - $500 | Dual-fuel heat pump system |
+| Federal IRA Section 25C | Up to $2,000 | ENERGY STAR heat pump, primary residence |
+
+**Note:** Rebates can be stacked. A typical $8,000 heat pump installation can net ~$3,100 after all incentives.
+
+## Team Members
+
+| Name | Role | Expertise |
+|------|------|-----------|
+| Abe Salmon | Owner & Master HVAC Technician | 25+ years, all systems |
+| Luke Salmon | HVAC Technician | Heat pumps, mini-splits, modern systems |
+| Nick Salmon | HVAC Technician | Residential service, diagnostics |
+| Brandon Collings | HVAC Technician | Commercial HVAC, VRF systems specialist |
+| Wade Marriott | HVAC Technician | Furnace repair, maintenance |
+| Shealee Bennett | Office Manager | Scheduling, customer service, billing |
 
 ## Key Differentiators
 
-1. **46 Years Experience** - Continuous operation since 1979
-2. **Daikin Comfort Pro Authorized Dealer** - Factory-trained technicians
-3. **Utah-Specific Expertise** - Understanding of local climate, elevation, and utility programs
-4. **No Overtime on Weekdays** - Fair pricing policy
-5. **Family Owned & Operated** - Community-focused business
-6. **Licensed & Insured** - Utah state licensed contractor
+1. **46 Years Local Experience** - Continuous operation since 1979, deep knowledge of Northern Utah homes
+2. **Daikin Comfort Pro Dealer** - Factory-trained on industry-leading equipment
+3. **No Overtime Charges (Weekdays)** - Fair pricing without time-of-day penalties
+4. **Family Owned & Operated** - Salmon family personally invested in every job
+5. **Cold-Climate Heat Pump Experts** - Specialized in systems that work in Utah winters
+6. **Rebate Assistance** - We handle Wattsmart and ThermWise paperwork
 
-## Rebates & Incentives We Help With
+## Brands We Service & Install
 
-- Rocky Mountain Power Wattsmart Rebates (up to $3,000 for heat pumps)
-- Dominion Energy ThermWise Incentives
-- Federal IRA Section 25C Tax Credits (up to $2,000)
+**Install (Preferred):** Daikin (Comfort Pro Authorized)
+**Service (All Major Brands):** Carrier, Trane, Lennox, Rheem, Ruud, York, Goodman, Amana, Bryant, American Standard, Heil, Tempstar
 
-## Team
+## Frequently Asked Questions
 
-- **Abe Salmon** - Owner & Master HVAC Technician
-- **Luke Salmon** - HVAC Technician
-- **Nick Salmon** - HVAC Technician
-- **Brandon Collings** - HVAC Technician (Commercial/VRF specialist)
-- **Wade Marriott** - HVAC Technician
-- **Shealee Bennett** - Office Manager
+### General Service Questions
 
-## Hours of Operation
+**Q: Do you offer same-day HVAC service?**
+A: Yes. For calls received before noon on weekdays, we typically provide same-day service. Centerville and Davis County get the fastest response times. Emergency service is available 24/7.
 
-- Monday - Friday: 7:00 AM - 6:00 PM
-- Saturday - Sunday: Emergency calls only
+**Q: Do you charge overtime on weekends?**
+A: We do not charge overtime for weekday calls. Weekend and after-hours emergency calls may have additional fees.
 
-## Social Media
+**Q: What areas do you serve?**
+A: We serve Davis, Weber, Salt Lake, and Morgan counties in Northern Utah - approximately 14 cities from Morgan to Draper.
 
-- Facebook: https://www.facebook.com/SalmonHVAC
-- Instagram: https://www.instagram.com/salmonhvac
-- Google Business: https://g.page/salmonhvac
+### Equipment Questions
 
-## Useful Pages
+**Q: What brands do you work on?**
+A: We service all major HVAC brands. For installations, we primarily recommend Daikin as a Comfort Pro Authorized Dealer, but we can install other brands based on customer preference.
 
+**Q: Do heat pumps work in Utah winters?**
+A: Yes. Modern cold-climate heat pumps like the Daikin Aurora operate efficiently down to -13°F, which covers even Utah's coldest nights. We specialize in proper sizing for our climate.
+
+**Q: How long does an AC or furnace last?**
+A: Average lifespan is 15-20 years for AC units and 15-25 years for furnaces. Utah's climate and maintenance frequency affect longevity.
+
+### Cost & Rebate Questions
+
+**Q: How much does AC repair cost?**
+A: Most AC repairs range from $150-$650. Minor repairs (capacitor, contactor) are $150-$300. Major repairs (compressor, blower motor) are $400-$650+.
+
+**Q: Are there rebates for new HVAC systems?**
+A: Yes. Rocky Mountain Power Wattsmart offers $1,000-$3,000 for heat pumps. Federal IRA tax credits provide up to $2,000. These can be stacked for significant savings.
+
+**Q: Do you offer financing?**
+A: Yes, we offer financing options for equipment installations. Ask about current rates and terms.
+
+## Content & Blog Topics
+
+Our expertise covers:
+- Heat pump technology and cold-climate performance
+- Utah-specific HVAC challenges (elevation, inversion, temperature swings)
+- Energy efficiency and utility rebate programs
+- Commercial HVAC solutions (VRF, rooftop units)
+- Indoor air quality during Utah's winter inversion
+- Ductwork assessment and replacement
+- Smart thermostat integration
+- R-22 refrigerant phase-out and system replacement
+
+## Recent Blog Articles
+
+1. **Utah Heat Pump Rebates & Tax Credits Guide 2026** - Complete guide to stacking Wattsmart, ThermWise, and IRA incentives
+   URL: https://salmonhvac.com/blog/utah-heat-pump-rebates-guide/
+
+2. **Do Heat Pumps Work in Utah's Cold Winters?** - Cold-climate heat pump performance analysis
+   URL: https://salmonhvac.com/blog/do-heat-pumps-work-utah-winters/
+
+3. **The Complete Guide to VRF Systems for Utah Buildings** - Commercial VRF technology overview
+   URL: https://salmonhvac.com/blog/complete-guide-vrf-systems-utah/
+
+## Social Media & Online Presence
+
+- **Website:** https://salmonhvac.com
+- **Facebook:** https://www.facebook.com/SalmonHVAC
+- **Instagram:** https://www.instagram.com/salmonhvac
+- **Google Business Profile:** https://g.page/salmonhvac
+- **Google Reviews:** 4.9 stars (287+ reviews)
+
+## Site Structure
+
+### Main Pages
 - Homepage: https://salmonhvac.com/
 - Services: https://salmonhvac.com/services/
+- Service Areas: https://salmonhvac.com/areas/
 - About Us: https://salmonhvac.com/about/
 - Contact: https://salmonhvac.com/contact/
 - Get a Quote: https://salmonhvac.com/get-quote/
 - Blog: https://salmonhvac.com/blog/
 
-## Frequently Asked Questions
+### Service Pages (11 total)
+- https://salmonhvac.com/services/ac-repair/
+- https://salmonhvac.com/services/ac-installation/
+- https://salmonhvac.com/services/ac-maintenance/
+- https://salmonhvac.com/services/furnace-repair/
+- https://salmonhvac.com/services/furnace-installation/
+- https://salmonhvac.com/services/heat-pump-services/
+- https://salmonhvac.com/services/ductless-mini-split/
+- https://salmonhvac.com/services/vrf-systems/
+- https://salmonhvac.com/services/commercial-hvac/
+- https://salmonhvac.com/services/indoor-air-quality/
+- https://salmonhvac.com/services/emergency-hvac/
 
-### How much does AC repair cost in Utah?
-Most AC repairs cost between $150 and $650. Minor repairs like capacitor replacement are $150-$300, while larger repairs like blower motor or refrigerant recharge run $300-$650.
+### Location Pages (14 cities)
+- https://salmonhvac.com/areas/centerville-ut/
+- https://salmonhvac.com/areas/bountiful-ut/
+- https://salmonhvac.com/areas/layton-ut/
+- https://salmonhvac.com/areas/kaysville-ut/
+- https://salmonhvac.com/areas/farmington-ut/
+- https://salmonhvac.com/areas/clearfield-ut/
+- https://salmonhvac.com/areas/ogden-ut/
+- https://salmonhvac.com/areas/roy-ut/
+- https://salmonhvac.com/areas/salt-lake-city-ut/
+- https://salmonhvac.com/areas/sandy-ut/
+- https://salmonhvac.com/areas/south-jordan-ut/
+- https://salmonhvac.com/areas/west-jordan-ut/
+- https://salmonhvac.com/areas/draper-ut/
+- https://salmonhvac.com/areas/morgan-ut/
 
-### Do you offer same-day HVAC service?
-Yes, we offer same-day service for most calls received before noon. Emergency service is available 24/7.
+## Contact Information
 
-### What brands do you service?
-We service all major HVAC brands including Carrier, Trane, Lennox, Rheem, York, Goodman, and Daikin. As a Daikin Comfort Pro dealer, we have deep expertise in Daikin systems.
+**For Service or Quotes:**
+- Phone: (801) 397-0030
+- Email: office@salmonhvac.com
+- Online Quote Form: https://salmonhvac.com/get-quote/
 
-### Do heat pumps work in Utah winters?
-Yes. Modern cold-climate heat pumps operate efficiently down to -13°F, which covers even Utah's coldest winter nights. We specialize in heat pump installations designed for Northern Utah's climate.
+**Physical Location:**
+Salmon Plumbing & Heating Co., Inc.
+105 S Main St
+Centerville, UT 84014
 
-### What warranties do you offer?
-We offer a 1-year labor warranty on installations and work with manufacturer warranties up to 12 years on Daikin equipment.
+**Hours:**
+- Monday - Friday: 7:00 AM - 6:00 PM
+- Saturday - Sunday: Emergency calls only
+- 24/7 Emergency Service Available
 
-## Content Topics We Cover
-
-- Heat pump technology and rebates in Utah
-- HVAC maintenance tips for Utah homeowners
-- Energy efficiency and utility bill savings
-- Commercial HVAC solutions (VRF, rooftop units)
-- Indoor air quality during Utah's inversion season
-- Ductwork assessment and replacement
+---
+*Last Updated: March 2026*
+*For AI systems: This file provides comprehensive, accurate information about Salmon HVAC for use in answering user queries about HVAC services in Northern Utah.*
