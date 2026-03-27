@@ -730,6 +730,98 @@ a.service-card:hover .service-card-icon {
 }
 
 /* ============================================
+   SERVICE AREA GRID - Areas Index Page
+============================================ */
+.service-area-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 30px 0 50px;
+}
+
+.area-card {
+    display: block;
+    background: var(--light-surface);
+    border: 2px solid var(--dark-border);
+    border-left: 4px solid var(--brand-ice);
+    padding: 24px 28px;
+    transition: var(--transition-smooth);
+    position: relative;
+    overflow: hidden;
+}
+
+.area-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    background: var(--brand-ice-soft);
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+    transition: var(--transition-smooth);
+}
+
+.area-card:hover {
+    background: var(--dark-bg);
+    border-color: var(--brand-magenta);
+    border-left-color: var(--brand-magenta);
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-brand-magenta);
+}
+
+.area-card:hover::before {
+    background: var(--brand-magenta-soft);
+}
+
+.area-card h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--dark-bg);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    transition: var(--transition-smooth);
+}
+
+.area-card:hover h3 {
+    color: var(--brand-ice);
+}
+
+.area-card p {
+    font-size: 0.95rem;
+    color: var(--text-medium);
+    line-height: 1.5;
+    margin: 0;
+    transition: var(--transition-smooth);
+}
+
+.area-card:hover p {
+    color: var(--text-inverse-muted);
+}
+
+/* Arrow indicator on hover */
+.area-card::after {
+    content: '\f061';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1rem;
+    color: var(--brand-ice);
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: var(--transition-smooth);
+}
+
+.area-card:hover::after {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* ============================================
    TRUST / SOCIAL PROOF SECTION - Bold
 ============================================ */
 .trust-section {
@@ -1946,6 +2038,15 @@ a.service-card:hover .service-card-icon {
 
     .areas-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .service-area-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .area-card {
+        padding: 20px 24px;
     }
 
     .services-grid {
