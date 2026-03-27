@@ -708,36 +708,39 @@ a.service-card:hover .service-card-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--light-bg);
+    background: var(--light-surface);
     padding: 18px 16px;
     text-align: center;
     font-family: 'Rajdhani', sans-serif;
     font-weight: 700;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: var(--dark-bg);
     transition: var(--transition-smooth);
-    border: 1px solid transparent;
-    border-left: 3px solid var(--brand-ice);
+    border: 2px solid var(--dark-border);
+    border-left: 4px solid var(--brand-magenta);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .area-link:hover {
     background: var(--dark-bg);
-    color: var(--brand-ice);
-    border-left-color: var(--brand-magenta);
-    transform: translateX(4px);
+    color: var(--text-inverse);
+    border-color: var(--brand-magenta);
+    border-left-color: var(--brand-ice);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-brand-magenta);
 }
 
 .area-link i {
-    color: var(--brand-ice);
-    margin-right: 8px;
-    font-size: 0.85em;
+    color: var(--brand-magenta);
+    margin-right: 10px;
+    font-size: 0.9em;
     transition: var(--transition-smooth);
 }
 
 .area-link:hover i {
-    color: var(--brand-magenta);
+    color: var(--brand-ice);
 }
 
 /* About Page Service Area Section */
