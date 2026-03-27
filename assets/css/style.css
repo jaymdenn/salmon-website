@@ -729,6 +729,36 @@ a.service-card:hover .service-card-icon {
     transform: translateX(4px);
 }
 
+.area-link i {
+    color: var(--brand-ice);
+    margin-right: 8px;
+    font-size: 0.85em;
+    transition: var(--transition-smooth);
+}
+
+.area-link:hover i {
+    color: var(--brand-magenta);
+}
+
+/* About Page Service Area Section */
+.about-service-area {
+    padding: var(--section-padding) 0;
+    background: var(--light-bg);
+}
+
+.service-area-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 1.1rem;
+    color: var(--text-medium);
+}
+
+.about-areas-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 /* ============================================
    SERVICE AREA GRID - Areas Index Page
 ============================================ */
