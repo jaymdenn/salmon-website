@@ -2198,6 +2198,17 @@ a.service-card:hover .service-card-icon {
     border-color: var(--brand-ice);
 }
 
+.daikin-link {
+    color: var(--brand-ice);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+.daikin-link:hover {
+    border-color: var(--brand-ice);
+}
+
 .reviews-grid {
     display: flex;
     flex-wrap: wrap;
