@@ -5,7 +5,7 @@
  */
 const SITE_CONFIG = {
   businessName: "Salmon HVAC",
-  legalName: "Salmon Plumbing & Heating Co., Inc.",
+  legalName: "Salmon HVAC LLC",
   address: {
     street: "1265 W 1275 N #7",
     city: "Centerville",
