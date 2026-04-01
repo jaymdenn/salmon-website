@@ -601,8 +601,9 @@ ul { list-style: none; }
 }
 
 .services-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
 }
 
@@ -615,6 +616,7 @@ a.service-card {
     display: block;
     color: inherit;
     position: relative;
+    flex: 0 1 300px;
     /* Sharp cut corner */
     clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 0 100%);
 }
@@ -699,8 +701,9 @@ a.service-card:hover .service-card-icon {
 }
 
 .areas-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 12px;
 }
 
@@ -718,6 +721,7 @@ a.service-card:hover .service-card-icon {
     letter-spacing: 0.05em;
     color: var(--dark-bg);
     transition: var(--transition-smooth);
+    flex: 0 1 160px;
     border: 2px solid var(--dark-border);
     border-left: 4px solid var(--brand-magenta);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
