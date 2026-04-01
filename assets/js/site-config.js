@@ -7,11 +7,11 @@ const SITE_CONFIG = {
   businessName: "Salmon HVAC",
   legalName: "Salmon Plumbing & Heating Co., Inc.",
   address: {
-    street: "105 S Main St",
+    street: "1265 W 1275 N #7",
     city: "Centerville",
     state: "UT",
     zip: "84014",
-    full: "105 S Main St, Centerville, UT 84014",
+    full: "1265 W 1275 N #7, Centerville, UT 84014",
   },
   phone: "(801) 397-0030",
   phoneTel: "+18013970030",
