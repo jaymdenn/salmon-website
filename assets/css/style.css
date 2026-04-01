@@ -1130,6 +1130,7 @@ a.service-card:hover .service-card-icon {
 .about-col-why h2 {
     font-size: clamp(1.6rem, 3vw, 2.2rem);
     color: var(--dark-bg);
+    text-align: center;
 }
 
 .about-col-story p {
