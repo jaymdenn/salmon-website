@@ -945,17 +945,56 @@ a.service-card:hover .service-card-icon {
     letter-spacing: 0.15em;
 }
 
+.reviews-heading-block {
+    text-align: center;
+    margin-bottom: 52px;
+    position: relative;
+    z-index: 1;
+}
+
+.reviews-heading-block h2 {
+    color: var(--text-inverse);
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    margin-bottom: 12px;
+}
+
+.reviews-heading-block .section-divider {
+    margin: 0 auto 28px;
+}
+
+.reviews-summary-dark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviews-stars-dark {
+    color: var(--brand-magenta);
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+}
+
+.reviews-meta-dark {
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+.reviews-meta-dark strong {
+    color: var(--text-inverse);
+}
+
 .testimonials-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px;
     position: relative;
     z-index: 1;
 }
 
 .testimonial-card {
     background: var(--dark-surface);
-    padding: 36px;
+    padding: 40px 36px;
     border: 1px solid var(--dark-border);
     border-top: 3px solid var(--brand-ice);
     transition: var(--transition-smooth);
@@ -2153,35 +2192,6 @@ a.service-card:hover .service-card-icon {
     }
 }
 
-/* ============================================
-   GOOGLE REVIEWS SECTION
-   ============================================ */
-
-.reviews-section {
-    padding: var(--section-padding) 0;
-    background: var(--light-bg);
-}
-
-.reviews-summary {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 48px;
-}
-
-.reviews-stars-overall {
-    font-size: 2rem;
-    color: #f5a623;
-    letter-spacing: 2px;
-}
-
-.reviews-meta {
-    font-size: 1.05rem;
-    color: var(--text-medium);
-    margin: 0;
-}
-
 .reviews-google-link {
     display: inline-flex;
     align-items: center;
@@ -2208,103 +2218,6 @@ a.service-card:hover .service-card-icon {
 .daikin-link:hover {
     border-color: var(--brand-ice);
 }
-
-.reviews-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px;
-}
-
-.review-card {
-    background: #fff;
-    border-radius: 12px;
-    padding: 28px 24px;
-    flex: 0 1 280px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.review-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
-}
-
-.review-stars {
-    color: #f5a623;
-    font-size: 1.1rem;
-    letter-spacing: 2px;
-}
-
-.review-text {
-    font-size: 0.95rem;
-    color: var(--text-medium);
-    line-height: 1.7;
-    flex: 1;
-    font-style: italic;
-}
-
-.review-author {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-top: 4px;
-}
-
-.review-avatar {
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--brand-ice), var(--brand-magenta));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    font-size: 0.9rem;
-    color: #fff;
-    flex-shrink: 0;
-}
-
-.review-info {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-
-.review-name {
-    font-weight: 700;
-    font-size: 0.9rem;
-    color: var(--dark-bg);
-}
-
-.review-badge {
-    font-size: 0.75rem;
-    color: #888;
-}
-
-.review-date {
-    font-size: 0.75rem;
-    color: #aaa;
-    margin-left: auto;
-}
-
-@media (max-width: 768px) {
-    .reviews-grid {
-        gap: 16px;
-    }
-
-    .review-card {
-        flex: 0 1 100%;
-        max-width: 480px;
-    }
-}
-
-/* ============================================
-   END GOOGLE REVIEWS SECTION
-   ============================================ */
 
 @media (max-width: 768px) {
     .nav-menu {
