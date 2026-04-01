@@ -11,6 +11,11 @@
   publish = "."
   command = "node scripts/generate-sitemap.js"
 
+[[redirects]]
+  from = "/about/"
+  to = "/our-team/"
+  status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]
