@@ -984,6 +984,11 @@ a.service-card:hover .service-card-icon {
     color: var(--text-inverse);
 }
 
+.reviews-count {
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
 .testimonials-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
