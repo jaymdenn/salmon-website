@@ -561,6 +561,13 @@ ul { list-style: none; }
     line-height: 1.7;
 }
 
+.gradient-text {
+    background: linear-gradient(90deg, var(--brand-ice), var(--brand-magenta));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 .section-divider {
     width: 80px;
     height: 4px;
