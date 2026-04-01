@@ -2197,6 +2197,109 @@ a.service-card:hover .service-card-icon {
     }
 }
 
+/* ============================================
+   QUOTE PAGE SIDEBAR
+   ============================================ */
+
+.quote-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.quote-sidebar-card {
+    background: var(--light-bg);
+    border: 1px solid #e0e4ea;
+    border-top: 3px solid var(--brand-ice);
+    padding: 28px 24px;
+    border-radius: 4px;
+}
+
+.quote-sidebar-card h3 {
+    font-size: 1.1rem;
+    color: var(--dark-bg);
+    margin-bottom: 14px;
+}
+
+.quote-sidebar-card p {
+    color: var(--text-medium);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.quote-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote-steps li {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+.step-number {
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(135deg, var(--brand-ice), var(--brand-magenta));
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.quote-steps li div strong {
+    display: block;
+    color: var(--dark-bg);
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+}
+
+.quote-steps li div p {
+    margin: 0;
+    font-size: 0.88rem;
+    color: var(--text-medium);
+    line-height: 1.5;
+}
+
+.sidebar-area-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sidebar-area-list li {
+    font-size: 0.92rem;
+    color: var(--text-medium);
+    padding-left: 16px;
+    position: relative;
+}
+
+.sidebar-area-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    color: var(--brand-ice);
+    font-size: 0.8rem;
+}
+
+/* ============================================
+   END QUOTE PAGE SIDEBAR
+   ============================================ */
+
 .reviews-google-link {
     display: inline-flex;
     align-items: center;
