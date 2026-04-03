@@ -2495,6 +2495,111 @@ a.service-card:hover .service-card-icon {
 }
 
 /* ============================================
+   THANK YOU PAGE
+   ============================================ */
+
+.thank-you-section {
+    background: var(--dark-bg);
+    min-height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.thank-you-card {
+    max-width: 580px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.thank-you-icon {
+    width: 80px;
+    height: 80px;
+    background: var(--brand-ice-soft);
+    border: 2px solid var(--brand-ice);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 32px;
+    font-size: 2rem;
+    color: var(--brand-ice);
+}
+
+.thank-you-card h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--text-inverse);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 16px;
+}
+
+.thank-you-lead {
+    color: var(--text-inverse-muted);
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.thank-you-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: var(--dark-surface);
+    border: 1px solid var(--dark-border);
+    border-left: 4px solid var(--brand-ice);
+    padding: 28px 32px;
+    margin-bottom: 36px;
+    text-align: left;
+}
+
+.thank-you-detail-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: var(--text-inverse-muted);
+}
+
+.thank-you-detail-item i {
+    color: var(--brand-ice);
+    font-size: 1.1rem;
+    width: 20px;
+    flex-shrink: 0;
+}
+
+.thank-you-detail-item div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.thank-you-detail-item strong {
+    color: var(--text-inverse);
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.thank-you-detail-item span,
+.thank-you-detail-item a {
+    font-size: 0.95rem;
+    color: var(--text-inverse-muted);
+}
+
+.thank-you-detail-item a:hover {
+    color: var(--brand-ice);
+}
+
+.thank-you-actions {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ============================================
    MAP SECTION
    ============================================ */
 
