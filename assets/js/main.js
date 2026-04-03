@@ -32,9 +32,10 @@ function initMobileMenu() {
     const navMenu = document.querySelector('.nav-menu');
     if (!menuBtn || !navMenu) return;
 
-    menuBtn.addEventListener('click', function() {
-        const isOpen = navMenu.classList.toggle('active');
+    function setMenuOpen(isOpen) {
+        navMenu.classList.toggle('active', isOpen);
         menuBtn.setAttribute('aria-expanded', isOpen);
+        document.body.classList.toggle('menu-open', isOpen);
 
         const spans = menuBtn.querySelectorAll('span');
         if (isOpen) {
@@ -46,13 +47,16 @@ function initMobileMenu() {
             spans[1].style.opacity = '';
             spans[2].style.transform = '';
         }
+    }
+
+    menuBtn.addEventListener('click', function() {
+        setMenuOpen(!navMenu.classList.contains('active'));
     });
 
     // Close when clicking outside
     document.addEventListener('click', function(e) {
         if (!e.target.closest('.nav-menu') && !e.target.closest('.mobile-menu-btn')) {
-            navMenu.classList.remove('active');
-            menuBtn.setAttribute('aria-expanded', 'false');
+            setMenuOpen(false);
         }
     });
 }
