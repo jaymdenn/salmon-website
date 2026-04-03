@@ -300,6 +300,37 @@ ul { list-style: none; }
     border-left-color: var(--brand-magenta);
 }
 
+.dropdown-group-label {
+    display: block;
+    padding: 8px 16px 4px;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--brand-ice);
+    opacity: 0.6;
+    pointer-events: none;
+    border-left: 3px solid transparent;
+    margin-top: 4px;
+}
+
+.dropdown-group-label:first-child {
+    margin-top: 0;
+}
+
+.dropdown-view-all {
+    border-top: 1px solid var(--dark-border) !important;
+    margin-top: 4px;
+    color: var(--brand-ice) !important;
+    font-size: 0.8rem !important;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.dropdown-view-all:hover {
+    color: var(--brand-ice-light) !important;
+}
+
 .nav-phone {
     display: flex;
     align-items: center;
@@ -2521,6 +2552,11 @@ a.service-card:hover .service-card-icon {
         font-size: 0.9rem;
         color: var(--text-inverse-muted);
         border-bottom: none;
+    }
+
+    .dropdown-group-label {
+        padding: 6px 40px 2px;
+        font-size: 0.6rem;
     }
 
     .dropdown-menu a:hover {
