@@ -79,6 +79,7 @@ html {
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    scroll-padding-top: 84px;
 }
 
 body {
@@ -369,10 +370,26 @@ ul { list-style: none; }
 /* ============================================
    BREADCRUMB - Sharp
 ============================================ */
+/* Breadcrumb used as top-level <nav> (area/contact/team pages) */
 .breadcrumb {
     background: var(--light-muted);
     padding: 14px 0;
     border-bottom: 1px solid var(--dark-border);
+    margin-top: 84px;
+}
+
+/* Breadcrumb used as outer <nav> wrapper (service/blog pages) */
+.breadcrumb-nav {
+    background: var(--light-muted);
+    border-bottom: 1px solid var(--dark-border);
+    margin-top: 84px;
+}
+
+/* Reset margin on <ol class="breadcrumb"> when nested inside .breadcrumb-nav */
+.breadcrumb-nav .breadcrumb {
+    margin-top: 0;
+    border-bottom: none;
+    background: transparent;
 }
 
 .breadcrumb ol {
