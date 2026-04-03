@@ -1099,7 +1099,7 @@ a.service-card:hover .service-card-icon {
 ============================================ */
 .about-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 420px 1fr;
 }
 
 .about-image {
@@ -1130,34 +1130,18 @@ a.service-card:hover .service-card-icon {
 
 .about-video {
     background: var(--dark-bg);
-    min-height: 650px;
     position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Sharp frame accent — matches .about-image::after */
-.about-video::after {
-    content: '';
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    right: 30px;
-    bottom: 30px;
-    border: 3px solid var(--brand-ice);
-    pointer-events: none;
-    opacity: 0.5;
-    z-index: 2;
+    align-items: stretch;
+    overflow: hidden;
 }
 
 .about-video iframe {
-    width: 330px;
-    height: 587px;
+    width: 100%;
+    aspect-ratio: 9 / 16;
     border: none;
-    position: relative;
-    z-index: 1;
     display: block;
+    flex-shrink: 0;
 }
 
 .about-content {
@@ -2253,17 +2237,19 @@ a.service-card:hover .service-card-icon {
         grid-template-columns: 1fr;
     }
 
-    .about-image {
-        min-height: 400px;
-    }
-
     .about-video {
-        min-height: 500px;
+        justify-content: center;
+        padding: 40px 0;
     }
 
     .about-video iframe {
-        width: 281px;
-        height: 500px;
+        width: auto;
+        height: 480px;
+        aspect-ratio: 9 / 16;
+    }
+
+    .about-image {
+        min-height: 400px;
     }
 
     .services-photo-grid {
@@ -2638,15 +2624,6 @@ a.service-card:hover .service-card-icon {
         grid-template-columns: 1fr;
     }
 
-    .about-video {
-        min-height: 420px;
-    }
-
-    .about-video iframe {
-        width: 236px;
-        height: 420px;
-    }
-
     .about-content {
         padding: 50px 28px;
     }
@@ -2706,6 +2683,10 @@ a.service-card:hover .service-card-icon {
 }
 
 @media (max-width: 480px) {
+    .about-video iframe {
+        height: 360px;
+    }
+
     .btn {
         padding: 14px 28px;
         font-size: 0.85rem;
